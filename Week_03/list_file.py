@@ -1,4 +1,4 @@
-input_file = open("../subjects.txt")
+input_file = open("../Tests/subjects.txt")
 subjects = input_file.readlines()
 input_file.close()
 

@@ -6,3 +6,5 @@ print(products)
 
 on_sale_products = [product for product in products if product[2]]
 print(on_sale_products)
+print(len(on_sale_products))
+print(sum(product[1] for product in products if product[2]))

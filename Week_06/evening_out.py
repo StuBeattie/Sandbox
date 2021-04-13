@@ -8,7 +8,7 @@ MENU = "menu:"
 
 def main():
     available_drinks = load_drinks("all_drinks.csv")
-    # print([str(drink) for drink in avalible_drinks])
+    # print([str(drink) for drink in available_drinks])
     my_drinks = DrinkList()
     print(MENU)
     menu_choice = input("> ").lower()

@@ -23,6 +23,7 @@ class DrinkList:
     def get_total_price(self):
         return sum([drink.price for drink in self.drinks])
 
+
 def run_tests():
     d = DrinkList()
     drink1 = Drink("Pina Colada", 12.3, 450, 12.5)

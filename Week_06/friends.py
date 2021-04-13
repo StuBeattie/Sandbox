@@ -15,3 +15,8 @@ class FriendsInformation:
         """Display friends details gathered from user."""
 
         return "Name: {} {}, age: {}".format(self.first_name, self.last_name, self.age)
+
+    def __lt__(self, other):
+        """Less than< used for sorting friends by age."""
+
+        return self.age < other.age

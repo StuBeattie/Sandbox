@@ -18,6 +18,7 @@ def main():
     print()
 
     # Display friends details in a list
+    friends.sort()
     for friend in friends:
         print("{}".format(friend))
 

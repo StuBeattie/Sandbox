@@ -14,4 +14,4 @@ class FriendsInformation:
     def __str__(self):
         """Display friends details gathered from user."""
 
-        return "Name: {} {} and their age is: {}".format(self.first_name, self.last_name, self.age)
+        return "Name: {} {}, age: {}".format(self.first_name, self.last_name, self.age)

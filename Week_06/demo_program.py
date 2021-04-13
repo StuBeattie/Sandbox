@@ -19,6 +19,7 @@ load products
 PRODUCTS_FILE = "products.csv"
 MENU_STRING = ">>>"
 
+
 def main():
     """Sales program."""
     products = load_products()
